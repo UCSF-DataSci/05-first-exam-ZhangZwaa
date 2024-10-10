@@ -11,4 +11,5 @@ touch ./results/cutsite_summary.txt
 
 touch ./data/random_sequence.fasta
 
-echo "# Project Structure\n\n- **scripts**: Contains 3 Python scripts.\n- **results**: Contains a `.txt` file.\n- **data**: Contains a `.fasta` file." > README.md
+echo "## Project structure"> README.md
+echo "**scripts**: Contains 3 Python scripts.<br />**results**: Contains a txt file.<br />**data**: Contains a fasta file." >>README.md
