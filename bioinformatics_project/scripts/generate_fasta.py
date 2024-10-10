@@ -7,4 +7,4 @@ dna = textwrap.fill(dna0, width=80)
 
 with open('/workspaces/05-first-exam-ZhangZwaa/bioinformatics_project/data/random_sequence.fasta','w') as fasta:
     fasta.write(dna)
-    print(f"Random DNA sequence generated and saved to {__file__}")
+    print(f"Random DNA sequence generated and saved to /workspaces/05-first-exam-ZhangZwaa/bioinformatics_project/data/random_sequence.fasta")
